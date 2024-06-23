@@ -1,6 +1,6 @@
 {
   "id": "4534c99451a2ad14512b380f54977ff41b7",
-  "revision": "15722711a2aad10ed2744269c2051840209df8c",
+  "revision": "16626621a2aad10ed2744269c2051840209df8c",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -5829,13 +5829,22 @@
       },
       {
         "modelName": "template_patch_model",
-        "name": "Pulse",
+        "name": "DEBUG Pulse",
         "identifier": "template_patch_model:66573-1a2aad10-ed27-4426-9c20-51840209df8c",
         "position": [
-          -1436.3864850128743,
-          -2388.896220395799
+          -1468,
+          -2428
         ],
-        "templateId": "builtin.pulse"
+        "templateId": "builtin.pulse",
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
       },
       {
         "modelName": "template_patch_model",

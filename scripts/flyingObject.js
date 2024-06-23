@@ -32,7 +32,8 @@ export const Diagnostics = require('Diagnostics');
 
 // Use import keyword to import a symbol from another file
 // import { animationDuration } from './script.js'
-
+const OPEN_PULSE = "openBox"
+const RESET_PULSE = "resetBox"
 const FLYING_OBJECT_NAME = "Malik-rifle-root"
 const FLYING_OBJECT_CHILD_NAME = "Malik"
 const GROUND_OBJECT_ROOT_NAME = "CerealBox-Parent"
@@ -42,16 +43,19 @@ const INITIAL_FLYING_BOOST = new CANNON.Vec3(20, 300, 10) // transformValue
 //const INITIAL_FLYING_BOOST = new CANNON.Vec3(15, 100, 40) // worldTransformValue
 
 class FlyingObject {
-  constructor()
+  constructor(startPulseName, resetPulseName, flyingObjectName, flyingObjectChildName, groundObjectName, massValue, initialBoostVec3, outputBlockName)
   {
-    Promise.all([
-      Patches.outputs.getPulse("openBox"),
-      Patches.outputs.getPulse("resetBox"),
+    this.flyingObjectMass = FLYINB_OBJECT_MASS;
+    this.flyingObjectBoost = INITIAL_FLYING_BOOST;
 
-      Scene.root.findFirst( FLYING_OBJECT_NAME ),
-      Scene.root.findFirst( GROUND_OBJECT_ROOT_NAME ),
-      Scene.root.findFirst( OUTPUT_BLOCK ),
-      Scene.root.findFirst( FLYING_OBJECT_CHILD_NAME ),
+    Promise.all([
+      Patches.outputs.getPulse(startPulseName),
+      Patches.outputs.getPulse(resetPulseName),
+
+      Scene.root.findFirst( flyingObjectName ),
+      Scene.root.findFirst( groundObjectName ),
+      Scene.root.findFirst( outputBlockName ),
+      Scene.root.findFirst( flyingObjectChildName ),
 
     ])
     .then(e => {
@@ -181,7 +185,7 @@ class FlyingObject {
       // Note: Must use CANNON.Vec3 (not alternatives) otherwise all crashes
       
       const flyingObjectProps = {
-          mass: FLYINB_OBJECT_MASS,
+          mass: this.flyingObjectMass,
       }
 
 
@@ -305,9 +309,9 @@ class FlyingObject {
     // (3) set flyingBody initial Velocity or Impulse
     //this.CANNONflyingBody.velocity = INITIAL_FLYING_BOOST;
     const initialBoost = new CANNON.Vec3(
-      INITIAL_FLYING_BOOST.x * fixedTimeStep,
-      INITIAL_FLYING_BOOST.y * fixedTimeStep,
-      INITIAL_FLYING_BOOST.z * fixedTimeStep,
+      this.flyingObjectBoost.x * fixedTimeStep,
+      this.flyingObjectBoost.y * fixedTimeStep,
+      this.flyingObjectBoost.z * fixedTimeStep,
     );
     this.CANNONflyingBody.applyLocalImpulse(initialBoost, new CANNON.Vec3(0, 0, 0));
 
@@ -355,5 +359,5 @@ class FlyingObject {
 }
 
 // TODO: improvement - I could have placed the variables in the constructor, and make the class work for other objects
-const flyingObject = new FlyingObject();
+const flyingObject = new FlyingObject(OPEN_PULSE, RESET_PULSE, FLYING_OBJECT_NAME, FLYING_OBJECT_CHILD_NAME, GROUND_OBJECT_ROOT_NAME, FLYINB_OBJECT_MASS, INITIAL_FLYING_BOOST, OUTPUT_BLOCK);
 export default flyingObject;

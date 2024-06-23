@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:8-d3d48b78-6a6d-41b5-bc11-10fe0972355c",
   "id": "4534c99451a2ad14512b380f54977ff41b7",
-  "revision": "15722711a2aad10ed2744269c2051840209df8c",
+  "revision": "16626621a2aad10ed2744269c2051840209df8c",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -624,7 +624,7 @@
           "modelName": "script",
           "name": "flyingObject.js",
           "identifier": "script:440554-851649d2-5fe7-4416-80ff-a741ff272029",
-          "assetDataHash": "992be96e83341ec5f6be443fd6f98c4e",
+          "assetDataHash": "f45f90e5d9a1ec14363cde1385de1ba4",
           "assetLocator": "scripts/flyingObject.js",
           "isExternalAsset": true
         }
