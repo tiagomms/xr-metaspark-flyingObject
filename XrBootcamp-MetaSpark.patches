@@ -1,6 +1,6 @@
 {
   "id": "4534c99451a2ad14512b380f54977ff41b7",
-  "revision": "2852551a2aad10ed2744269c2051840209df8c",
+  "revision": "15722711a2aad10ed2744269c2051840209df8c",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -30,7 +30,7 @@
       },
       {
         "modelName": "patch_comment_block_model",
-        "name": "Box Position",
+        "name": "Toy Position",
         "identifier": "patch_comment_block_model:164334-851649d2-5fe7-4416-80ff-a741ff272029",
         "color": "Green",
         "container": "patch_graph:90-d3d48b78-6a6d-41b5-bc11-10fe0972355c",
@@ -43,7 +43,7 @@
       },
       {
         "modelName": "patch_comment_block_model",
-        "name": "Box Rotation",
+        "name": "Toy Rotation",
         "identifier": "patch_comment_block_model:166113-851649d2-5fe7-4416-80ff-a741ff272029",
         "color": "Red",
         "container": "patch_graph:90-d3d48b78-6a6d-41b5-bc11-10fe0972355c",
@@ -58,6 +58,7 @@
         "modelName": "patch_comment_block_model",
         "name": "Box Particles Effect",
         "identifier": "patch_comment_block_model:16871-851649d2-5fe7-4416-80ff-a741ff272029",
+        "color": "Green",
         "container": "patch_graph:90-d3d48b78-6a6d-41b5-bc11-10fe0972355c",
         "frame": [
           1005,
@@ -70,6 +71,7 @@
         "modelName": "patch_comment_block_model",
         "name": "Open/Close Box Animation",
         "identifier": "patch_comment_block_model:16873-851649d2-5fe7-4416-80ff-a741ff272029",
+        "color": "Purple",
         "container": "patch_graph:90-d3d48b78-6a6d-41b5-bc11-10fe0972355c",
         "frame": [
           501,
@@ -80,7 +82,7 @@
       },
       {
         "modelName": "patch_comment_block_model",
-        "name": "Box Scale",
+        "name": "Toy Scale",
         "identifier": "patch_comment_block_model:170602-851649d2-5fe7-4416-80ff-a741ff272029",
         "color": "Blue",
         "container": "patch_graph:90-d3d48b78-6a6d-41b5-bc11-10fe0972355c",

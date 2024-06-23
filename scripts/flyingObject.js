@@ -239,6 +239,10 @@ class FlyingObject {
     }
   }
 
+  // - Super annoying thing: once an object position (or something else) was changed via script,
+  // any patch changes for it were ignored (the field became disabled and could only be changed by script). 
+  // For someone that had done a lot via patch, this was a big nuisance 
+  // (example: resetChildPatchRoot if used - it is no longer possible to increase its rotation/scale anymore via patch).
   resetChildPatchRoot()
   {
     this.currentChildObj.transformValue.position = this.childObjectStartPosition;
