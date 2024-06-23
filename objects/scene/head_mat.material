@@ -1,0 +1,77 @@
+{
+  "modelName": "dependent_material_model",
+  "name": "head_mat",
+  "identifier": "dependent_material_model:16875-851649d2-5fe7-4416-80ff-a741ff272029",
+  "sourceIdentifier": "asset_collection_model:16947-851649d2-5fe7-4416-80ff-a741ff272029",
+  "alphaTestEnabled": false,
+  "alphaTestThreshold": 0,
+  "blendMode": "replace",
+  "colorEncoding": "srgb",
+  "cullMode": "back",
+  "diffuseFactor": "0xffffffff",
+  "diffuseTextureName": "dependent_texture_model:16877-851649d2-5fe7-4416-80ff-a741ff272029",
+  "diffuseTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "doubleSided": true,
+  "emissiveEnabled": false,
+  "emissiveFactor": "0xff000000",
+  "emissiveTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "importIssues": {},
+  "invertMultiply": false,
+  "isDiffuseTextureIdentifierEnabled": true,
+  "isEmissiveTextureIdentifierEnabled": false,
+  "isMultiplyTextureIdentifierEnabled": false,
+  "isNormalTextureIdentifierEnabled": false,
+  "isReflectiveTextureIdentifierEnabled": false,
+  "isSpecularTextureIdentifierEnabled": false,
+  "lightingEnabled": false,
+  "multiplyMode": "alpha_only",
+  "multiplyTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "normalTextureScale": 1,
+  "normalTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "readDepth": true,
+  "reflectiveTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "shininessFactor": 1,
+  "specularTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "transparency": 1,
+  "writeDepth": true,
+  "writesToColorBufferAlpha": true,
+  "writesToColorBufferBlue": true,
+  "writesToColorBufferGreen": true,
+  "writesToColorBufferRed": true
+}

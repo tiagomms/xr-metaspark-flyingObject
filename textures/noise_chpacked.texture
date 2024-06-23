@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "noise_chpacked",
+  "identifier": "texture:345632-f76dce79-66ea-4291-9f84-8ebaa2fc65b1",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "4176352de5f186ff03f4f4d8842cdeae",
+  "assetLocator": "textures/noise_chpacked.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 256,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 256,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "4176352de5f186ff03f4f4d8842cdeae",
+      "colorCount": 50974,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 15.51105505685147,
+      "pixelsHigh": 256,
+      "pixelsWide": 256
+    }
+  ]
+}

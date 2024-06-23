@@ -1,0 +1,37 @@
+{
+  "modelName": "texture",
+  "name": "noise_chpacked",
+  "identifier": "texture:27922-98222dae-9c36-4674-8744-a6ff850ddaea",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "4176352de5f186ff03f4f4d8842cdeae",
+  "assetLocator": "textures/noise_chpacked.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "externalSourceLocator": "sparkarstudio://arlibrary/facebook/texture/478374550502429",
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 256,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 256,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "4176352de5f186ff03f4f4d8842cdeae",
+      "colorCount": 50974,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 15.51105505685147,
+      "pixelsHigh": 256,
+      "pixelsWide": 256
+    }
+  ]
+}

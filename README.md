@@ -9,3 +9,4 @@ A cereal box appears and opens up after targeting image target. A digital toy po
 
 Target Image to trigger Cereal Box showing: 
 
+![Target Image to trigger Meta Spark animation](./textures/SparkTargetPoster.jpg)

@@ -1,0 +1,84 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Cube",
+  "identifier": "master3_d_object_model:445913-851649d2-5fe7-4416-80ff-a741ff272029",
+  "sourceIdentifier": "asset_collection_model:445917-851649d2-5fe7-4416-80ff-a741ff272029",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.04999999701976776,
+  "globalScaleFactor": 1,
+  "height": 0.04999999701976776,
+  "hidden": false,
+  "layerIdentifier": "3dAsset",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.05000004172325134,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Cube",
+      "identifier": "mesh:445903-851649d2-5fe7-4416-80ff-a741ff272029",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "3dAsset",
+      "nodeName": "Cube",
+      "numberOfFaces": 12,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:445907-851649d2-5fe7-4416-80ff-a741ff272029",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:445905-851649d2-5fe7-4416-80ff-a741ff272029",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:445910-851649d2-5fe7-4416-80ff-a741ff272029",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:445901-851649d2-5fe7-4416-80ff-a741ff272029",
+              "surfaceGroupIdentifier": "445911-851649d2-5fe7-4416-80ff-a741ff272029"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

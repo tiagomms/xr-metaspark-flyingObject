@@ -1,0 +1,78 @@
+{
+  "modelName": "defaultMaterial",
+  "name": "rainbowParticles",
+  "identifier": "defaultMaterial:341916-f76dce79-66ea-4291-9f84-8ebaa2fc65b1",
+  "alphaTestEnabled": false,
+  "alphaTestThreshold": 0,
+  "blendMode": "alpha",
+  "colorEncoding": "linear",
+  "cullMode": "back",
+  "diffuseFactor": "0xffffffff",
+  "diffuseTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "doubleSided": false,
+  "emissiveEnabled": true,
+  "emissiveFactor": "0xffffffff",
+  "emissiveTextureName": "texture:338210-f76dce79-66ea-4291-9f84-8ebaa2fc65b1",
+  "emissiveTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "importIssues": {},
+  "invertMultiply": false,
+  "isDiffuseTextureIdentifierEnabled": false,
+  "isEmissiveTextureIdentifierEnabled": true,
+  "isMultiplyTextureIdentifierEnabled": false,
+  "isNormalTextureIdentifierEnabled": false,
+  "isReflectiveTextureIdentifierEnabled": false,
+  "isSpecularTextureIdentifierEnabled": false,
+  "lightingEnabled": true,
+  "multiplyMode": "alpha_only",
+  "multiplyTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "normalTextureName": "texture:345632-f76dce79-66ea-4291-9f84-8ebaa2fc65b1",
+  "normalTextureScale": 1,
+  "normalTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "readDepth": true,
+  "reflectiveTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "shininessFactor": 1,
+  "specularTextureName": "texture:345632-f76dce79-66ea-4291-9f84-8ebaa2fc65b1",
+  "specularTextureTransform": {
+    "offsetU": 0,
+    "offsetV": 0,
+    "rotation": 0,
+    "scaleU": 1,
+    "scaleV": 1
+  },
+  "transparency": 0.4393643465909082,
+  "writeDepth": true,
+  "writesToColorBufferAlpha": true,
+  "writesToColorBufferBlue": true,
+  "writesToColorBufferGreen": true,
+  "writesToColorBufferRed": true
+}

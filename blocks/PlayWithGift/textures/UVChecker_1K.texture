@@ -1,0 +1,37 @@
+{
+  "modelName": "texture",
+  "name": "UVChecker_1K",
+  "identifier": "texture:28158-98222dae-9c36-4674-8744-a6ff850ddaea",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "096ae2b9a0228a3b0a26d7fbf25a23c2",
+  "assetLocator": "textures/UVChecker_1K.jpeg",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "externalSourceLocator": "sparkarstudio://arlibrary/facebook/texture/537807684230403",
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 256,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 256,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "096ae2b9a0228a3b0a26d7fbf25a23c2",
+      "colorCount": 7090,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "jpeg",
+      "entropyOfDistribution": 10.216938885522856,
+      "pixelsHigh": 256,
+      "pixelsWide": 256
+    }
+  ]
+}

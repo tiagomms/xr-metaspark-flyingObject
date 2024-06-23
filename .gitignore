@@ -14,3 +14,9 @@ test_gen
 test_gen.caches
 TEST-*.xml
 junit*.properties
+
+# DS_Store
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store

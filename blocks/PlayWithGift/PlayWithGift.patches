@@ -1,0 +1,37 @@
+{
+  "id": "929998222dae9c3646748744a6ff850ddaea",
+  "revision": "930098222dae9c3646748744a6ff850ddaea",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 178
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "macosx",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 178
+  },
+  "visual_programming": {
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:22487-98222dae-9c36-4674-8744-a6ff850ddaea"
+      }
+    ],
+    "ports": [
+      {
+        "modelName": "block_input_port_model",
+        "name": "giftReady",
+        "identifier": "block_input_port_model:22698-98222dae-9c36-4674-8744-a6ff850ddaea",
+        "defaultValue": {
+          "t": "bool",
+          "v": false
+        },
+        "portTag": "block_input_port_model:22698-98222dae-9c36-4674-8744-a6ff850ddaea",
+        "portType": "bool"
+      }
+    ]
+  }
+}
